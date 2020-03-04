@@ -13,8 +13,11 @@ var paused: = false setget set_paused
 
 
 func _ready() -> void:
+# warning-ignore:return_value_discarded
 	PlayerData.connect("updated", self, "update_interface")
+# warning-ignore:return_value_discarded
 	PlayerData.connect("died", self, "_on_Player_died")
+# warning-ignore:return_value_discarded
 	PlayerData.connect("reset", self, "_on_Player_reset")
 	update_interface()
 
@@ -33,8 +36,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		self.paused = not self.paused
 
 
-func update_interface() -> void:
-	score_label.Text = "Score: %s" % PlayerData.score
+func update_interface():
+	score_label.text = "Score: %s" % PlayerData.score
 
 
 func set_paused(value: bool) -> void:
