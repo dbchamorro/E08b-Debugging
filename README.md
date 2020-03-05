@@ -4,7 +4,7 @@ For this assignment I was tasked with debugging this program. There are 8 errors
 
 1/8 - 
 
-2/8-
+2/8-Fixed the issue of the player no being able to move right, not responding to the right key
 
 3/8- Fixed the issue of the score card not popping up. 
 
@@ -13,3 +13,5 @@ For this assignment I was tasked with debugging this program. There are 8 errors
 5/8- (I dont know if it was actually a problem?) I lowered the gravity of the actor to make the jumps easier to make without requirirng the player to interact with an enemy.
 
 6/8- Updated the score card, it now starts from zero and adds 100 per coin collected, and enemy stomped on.
+
+7/8- Fixed the issue of the endscreen not showing up when a player wins the game. 
