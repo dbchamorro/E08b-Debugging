@@ -15,3 +15,5 @@ For this assignment I was tasked with debugging this program. There are 8 errors
 6/8- Updated the score card, it now starts from zero and adds 100 per coin collected, and enemy stomped on.
 
 7/8- Fixed the issue of the endscreen not showing up when a player wins the game. 
+
+8/8- Fixed the death counter, it added 10 each time a player died instead one. 
