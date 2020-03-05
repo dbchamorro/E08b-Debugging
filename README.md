@@ -2,7 +2,7 @@
 
 For this assignment I was tasked with debugging this program. There are 8 errors of various types within the program. 
 
-1/8 - 
+1/8 - (I honestly cant remember what I did but I remember it was super simple) Fixed the error that wasnt allowing the computer to run the first scene
 
 2/8-Fixed the issue of the player no being able to move right, not responding to the right key
 
