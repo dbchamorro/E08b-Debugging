@@ -29,7 +29,6 @@ func get_direction() -> Vector2:
 		Input.get_action_strength("ui_right") - Input.get_action_strength("move_left"),
 		-Input.get_action_strength("jump") if is_on_floor() and Input.is_action_just_pressed("jump") else 0.0
 	)
-#1:10:1
 
 func calculate_move_velocity(
 		linear_velocity: Vector2,
@@ -54,5 +53,5 @@ func calculate_stomp_velocity(linear_velocity: Vector2, stomp_impulse: float) ->
 
 
 func die() -> void:
-	PlayerData.deaths += 10
+	PlayerData.deaths += 1
 	queue_free()
